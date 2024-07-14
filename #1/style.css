@@ -1,0 +1,25 @@
+html,body{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+/* You can allow users to control the height and width of elements */
+div{
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(65, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* only work when element is set to overflow: hidden*/
+}
+/* this is how its done */
+.div1{
+    resize: vertical;
+}
+.div2{
+    resize: horizontal;
+}
+.div3{
+    resize: both;
+}
